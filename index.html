@@ -6,8 +6,8 @@
     <title>Justice Junction</title>
 
     <!-- fav icon  -->
-    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="./images/Group 1.svg" type="image/x-icon">
+
     <!-- tailwind and daisyUI  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,9 +24,11 @@
           }
         }
       </script>
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/5be871417b.js" crossorigin="anonymous"></script>
 
-      <!-- poppins and EB garamond google font  -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- poppins and EB garamond google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@600&display=swap" rel="stylesheet">
 
@@ -41,7 +43,44 @@
 </head>
 <body>
     <header>
-        
+        <!-- nav section design start  -->
+        <nav class="max-w-screen-xl mx-auto md:my-8">
+            <div class="navbar">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>Service</a></li>
+                      <li><a>Cases</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact Us</a></li>
+                      <li><a class="btn bg-[#B68C5A] text-white flex pt-3">Free Consultation</a></li>
+                    </ul>
+                  </div>
+                  <div class="flex items-center gap-5">
+                    <img src="./images/Group 1.svg" alt="">
+                    <a class="font-garamond text-4xl font-extrabold text-[#414040]">Justice Junction</a>
+                  </div>
+                  
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                      <li><a>Home</a></li>
+                      <li><a>Service <i class="fa-solid fa-angle-right"></i></a></li>
+                      <li><a>Cases <i class="fa-solid fa-angle-right"></i></a></li>
+                      <li><a>Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                      <li><a>Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end hidden lg:inline-flex">
+                  <a class="btn btn-active bg-[#B68C5A] text-white ">Free Consultation</a>
+                </div>
+              </div>
+        </nav>
+        <!-- nav section design end  -->
     </header>
     <main>
 
